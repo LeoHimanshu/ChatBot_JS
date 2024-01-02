@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>JavaScript ChatBot</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <button class="chatbot-toggler">
+            <span>🤖</span>
+            <span>cancel</span>
+        </button>
+        <div class="chatbot">
+            <header>
+                <h2>ChatBot</h2>
+                <span class="close-btn">Cancel</span>
+            </header>
+            <ul class="chatbox">
+                <li class="chat incoming">
+                    <span >🤖</span> 
+                    <p> Hi there 😀<br> How can I help you today?</p>
+                </li>                
+            </ul>
+            <div class="chat-input">
+                <textarea placeholder="Enter a message..." required></textarea>
+                <span id="send-btn" >➤</span>
+            </div>
+        </div>
+
+    </body>
+</html>
